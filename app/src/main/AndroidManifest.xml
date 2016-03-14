@@ -20,6 +20,8 @@
         </activity>
         <activity android:name=".ui.LieferscheinView">
         </activity>
+        <activity android:name=".ui.KundenListe">
+        </activity>
     </application>
 
 </manifest>

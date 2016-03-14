@@ -17,7 +17,7 @@ import at.ums.lfsums.sqlite.ContratoGestionUmsDb.Mitarbeiter;
  * Created by luna-aleixos on 29.02.2016.
  * Clase que administra la conexión de la base de datos y su estructuración
  */
-public class GestionUmsDbHelper extends SQLiteAssetHelper {
+public class GestionUmsDbHelper extends SQLiteAssetHelper { //Cuando se crea la bd desde codigo en vez de usar SQLiteAssetHelper se usa SQLiteOpenHelper
 
     //Creamos las variables generales de la Db
 

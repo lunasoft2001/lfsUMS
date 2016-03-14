@@ -27,8 +27,8 @@ public class ProviderGestionUmsDb extends ContentProvider {
     public static final UriMatcher uriMatcher;
 
     // Casos
-    public static final int KUNDE = 0000 ;
-    public static final int KUNDE_ID = 0001;
+    public static final int KUNDE = 100 ;
+    public static final int KUNDE_ID = 101;
 
     static {
         uriMatcher = new UriMatcher(UriMatcher.NO_MATCH);

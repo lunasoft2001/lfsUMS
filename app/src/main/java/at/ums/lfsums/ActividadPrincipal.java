@@ -19,6 +19,7 @@ import android.view.MenuItem;
 import android.widget.Button;
 
 import at.ums.lfsums.sqlite.OperacionesBaseDatos;
+import at.ums.lfsums.ui.KundenListe;
 import at.ums.lfsums.ui.LieferscheinView;
 
 public class ActividadPrincipal extends AppCompatActivity
@@ -99,7 +100,10 @@ public class ActividadPrincipal extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.kunden) {
-            // Handle the camera action
+            Intent intento = new Intent(this, KundenListe.class);
+            startActivity(intento);
+
+
         } else if (id == R.id.lieferschein) {
             Intent intento = new Intent(this, LieferscheinView.class);
             startActivity(intento);
